@@ -3,19 +3,13 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 
-
-
 import Style from './NavbarStyle.css'
-
 
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const hendelClick = () => setClick(!click);
-
-
   const [color, setColor] = useState(false);
-
   const changecolor = () =>{
     if(window.scrollY > 100){
       setColor(true)
