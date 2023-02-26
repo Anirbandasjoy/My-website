@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 
+
+
+
 import About from './routes/About';
 
 
@@ -12,15 +15,6 @@ import About from './routes/About';
 import Contac from './routes/Contac';
 import Home from './routes/Home';
 import Project from './routes/Project';
-
-
-
-
-import Style from './index.css'
-
-
-
-
 
 
 const App = () => {

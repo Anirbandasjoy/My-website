@@ -4,16 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
-
-
-
 import "./pricingCardstyle.css";
-
-
-
-
-
-
 
 
 const PricingCard = () => {

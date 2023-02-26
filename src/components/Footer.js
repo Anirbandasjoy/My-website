@@ -1,7 +1,11 @@
 import React from 'react'
 import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitch } from "react-icons/fa";
 
+
+
 import "./footerStyle.css";
+
+
 
 const Footer = () => {
   return (
@@ -26,8 +30,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="right">
-                <h4>About the compony</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, officia!</p>
+                <h4>About  Me</h4>
+                <p>I am a front end web developer. I love JavaScript so it's only because of JavaScript that I've come this far. Connect with me via social media below or fill out the contact form!</p>
                 <div className="social">
                <a target="_blank" href="https://www.facebook.com/anirban.dasjoy/"> <FaFacebook size={30} style={{color:"#fff",marginRight : "1rem"}}/></a>
                 <FaTwitch size={30} style={{color:"#fff",marginRight : "1rem"}}/>

@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 
 
 
-import "./workCardstyle.css"
 
+import "./workCardstyle.css"
 
 
 
@@ -15,14 +15,15 @@ const WorkCard = (props) => {
 
   return (
     <div className="project-card">
+   <h4 className="project-title">{props.title}</h4>
     <img  src={props.imgsrc} alt="img" />
-    <h2 className="project-title">{props.title}</h2>
+   
     <div className="pro-details">
-     <p>{props.text}</p>
+     {/* <p>{props.text}</p> */}
 
       <div className="pro-btns">
-        <NavLink target="_blank" className="btn" to={props.view}>view</NavLink>
-        <NavLink target="_blank" className="btn" to="facebook.com">Source</NavLink>
+        <NavLink target="_blank" className="btn otherbtn" to={props.view}><i class="fa-solid fa-eye"></i></NavLink>
+        <NavLink target="_blank" className="btn otherbtn" to="facebook.com"><i class="fa-brands fa-sourcetree"></i></NavLink>
       </div>
     </div>
 </div>

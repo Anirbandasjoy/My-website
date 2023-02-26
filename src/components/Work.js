@@ -1,16 +1,19 @@
 import React, { useState } from 'react'
 
+
 import Img1 from "../img/img1.jpg"
 import WorkCard from './WorkCard'
 import WorkCardData from './WorkCardData'
 
+
 import "./workCardstyle.css"
+
 
 const Work = () => {
 
   return (
     <div className="work-container">
-            <h1 className="project-heading">Projects</h1>
+            <h1 className="project-heading">Portfolio</h1>
             <div className="project-container">
             {WorkCardData.map((val,ind) =>{
                 return(

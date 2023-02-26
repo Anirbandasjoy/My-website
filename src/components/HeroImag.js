@@ -2,11 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
+
+
+
+
 import myImg from '../img/anirban.jpg';
 import IntroImg from '../img/bg.jpg';
 
 
+
+
+
+
 import "./HeroImgstyle.css";
+
+
+
+
 
 
 const HeroImag = () => {
@@ -22,10 +34,10 @@ const HeroImag = () => {
           <p>HI, ANIRBAN DAS JOY.</p>
         </div>
 
-        <h1>React Developer</h1>
+        <h1>Front-end Developer</h1>
         <div >
-          <Link className='btn' to='/projects'>Projects</Link>
-          <Link className='btn btn-light' to='/contact'>Contact</Link>
+          {/* <Link className='btn' to='/projects'>download_cv</Link> */}
+           <Link className='btn btn-light' to='/contact'>download_cv</Link>
         </div>
 
 

@@ -4,15 +4,19 @@ import { Link } from "react-router-dom";
 
 
 
+
+
+
 import img1 from "../img/img1.jpg"
 import img4 from "../img/img4.jpg"
 
 
 
 
+
+
+
 import "./AboutContentstyle.css";
-
-
 
 
 const AboutContent = () => {
@@ -21,9 +25,9 @@ const AboutContent = () => {
         <div className="about">
             <div className="left">
                 <h1>who i am </h1>
-                <p>I am a Front-end Developer. i create responsive secure  website for my clints</p>
+                <p>I am a front end web developer. I love JavaScript so it's only because of JavaScript that I've come this far. Connect with me via social media below or fill out the contact form!</p>
                 <Link to="/contact">
-                    <button className="btn">Download CV</button>
+                    <button className="btn">CONTACT</button>
                 </Link>
             </div>
             <div className="right">
