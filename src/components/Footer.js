@@ -3,7 +3,27 @@ import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitch } from "r
 
 
 
+
+
+
+
+
+
+
+
+
+
 import "./footerStyle.css";
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,9 +62,9 @@ const Footer = () => {
         </div>
         
 
-
+        
     </div>
-       
+    <p style={{textAlign : "center", fontSize : "1rem",marginBottom : ".7rem", color: "#a3a1a1"}}>CopyRight by Anirban das joy @2023</p>
     </div>
     
   )

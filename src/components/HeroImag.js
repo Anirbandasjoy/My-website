@@ -1,25 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-
-
-
-
 import myImg from '../img/anirban.jpg';
 import IntroImg from '../img/bg.jpg';
 
-
-
-
-
-
 import "./HeroImgstyle.css";
-
-
-
-
-
 
 const HeroImag = () => {
   return (
@@ -31,7 +16,7 @@ const HeroImag = () => {
       <div className="content">
         <div className="my-img">
           <img className='anirban' src={myImg} alt="myImg" />
-          <p>HI, ANIRBAN DAS JOY.</p>
+          <p>HI, I'AM ANIRBAN DAS JOY.</p>
         </div>
 
         <h1>Front-end Developer</h1>

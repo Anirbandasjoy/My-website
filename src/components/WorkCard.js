@@ -5,7 +5,9 @@ import { NavLink } from 'react-router-dom'
 
 
 
+
 import "./workCardstyle.css"
+
 
 
 
@@ -22,8 +24,8 @@ const WorkCard = (props) => {
      {/* <p>{props.text}</p> */}
 
       <div className="pro-btns">
-        <NavLink target="_blank" className="btn otherbtn" to={props.view}><i class="fa-solid fa-eye"></i></NavLink>
-        <NavLink target="_blank" className="btn otherbtn" to="facebook.com"><i class="fa-brands fa-sourcetree"></i></NavLink>
+        <NavLink className="btn otherbtn" to={props.view}><i class="fa-solid fa-eye"></i></NavLink>
+        <NavLink className="btn otherbtn" to="facebook.com"><i class="fa-brands fa-sourcetree"></i></NavLink>
       </div>
     </div>
 </div>
