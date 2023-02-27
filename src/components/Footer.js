@@ -13,7 +13,13 @@ import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitch } from "r
 
 
 
+
+
+
 import "./footerStyle.css";
+
+
+
 
 
 
@@ -53,7 +59,7 @@ const Footer = () => {
                 <h4>About  Me</h4>
                 <p>I am a front end web developer. I love JavaScript so it's only because of JavaScript that I've come this far. Connect with me via social media below or fill out the contact form!</p>
                 <div className="social">
-               <a target="_blank" href="https://www.facebook.com/anirban.dasjoy/"> <FaFacebook size={30} style={{color:"#fff",marginRight : "1rem"}}/></a>
+               <a target="_blank" href="https://www.facebook.com/anirban.dasjoy/" rel="noreferrer" > <FaFacebook size={30} style={{color:"#fff",marginRight : "1rem"}}/></a>
                 <FaTwitch size={30} style={{color:"#fff",marginRight : "1rem"}}/>
                 <FaLinkedin size={30} style={{color:"#fff",marginRight : "1rem"}}/>
                 </div>
